@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richland's Villa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/464b626e88.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault(); // Prevent the default anchor click behavior
+
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+    <nav>
+        <div class="logo">Richland's Villa</div>
+        <!-- <div></div> -->
+        <div class="nav-items">
+            <a href="#whyus">Why Us?</a>
+            <a href="#map-section">Locate Us</a>
+            <a href="#gallery-top">Gallery</a>
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </nav>
+    <div class="main">
+        <section class="captivating_section" id="captivating_section">
+            <div class="cs_content">
+                <div class="maintext">
+                    <h1>THE KANDYAN HOMESTAY EXPERIENCE...</h1>
+                </div>
+                <div class="booknow">
+                    <h3>Your comfort awaits you...</h3>
+                    <a href="https://www.booking.com/Share-rEnF4J"><button>Book Now</button></a>
+                </div>
+            </div>
+        </section>
+        <div class="top-features">
+            <div class="feature1">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <br>
+                <h5>8.0 KM from Kandy </h5>
+            </div>
+            <div class="feature2">
+                <i class="fa-solid fa-pen-nib"></i>
+                <br>
+                <h5>An antique touch of Kandyan Heritage</h5>
+            </div>
+            <div class="feature3">
+                <i class="fa-solid fa-people-roof"></i>
+                <br>
+                <h5>For You and Your loved ones</h5>
+            </div>
+        </div>
+        <div class="choose-us" id="whyus">
+            <div class="choose-img">
+
+            </div>
+            <div class="choose-content">
+                <div class="choose-text">
+                    <h2>WHY CHOOSE US ?</h2>
+                    <br>
+                    <br>
+                    <p>We aim to provide you the best home stay experience.
+                        Experience the Sri Lankan hospitality and enjoy the antiquities of a Kandiyan home…</p>
+                </div>
+                <div class="icons">
+                    <div class="icons-left">
+                        <i class="fa-solid fa-wifi"></i>
+                        <p>Free WiFi</p>
+                        <i class="fa-solid fa-utensils"></i>
+                        <p>Kitchen</p>
+                        <i class="fa-solid fa-square-parking"></i>
+                        <p>Parking</p>
+                        <i class="fa-solid fa-temperature-arrow-down"></i>
+                        <p>Air Conditioning</p>
+                    </div>
+                    <div class="icons-right">
+                        <i class="fa-solid fa-couch"></i>
+                        <p>Living Room</p>
+                        <i class="fa-solid fa-shower"></i>
+                        <p>Hot Water</p>
+                        <i class="fa-solid fa-mug-saucer"></i>
+                        <p>Free Breakfast</p>
+                        <i class="fa-solid fa-child-reaching"></i>
+                        <p>Kid Friendly</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map-section" id="map-section">
+            <h1>Locate Us</h1>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.36491347238294!2d80.67538293812605!3d7.259200752465879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3670072ab1fa7%3A0x55a524355d53a6af!2sRichland&#39;s%20Villa!5e0!3m2!1sen!2slk!4v1714149046625!5m2!1sen!2slk"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="gtop" id="gallery-top">
+            <h1>Gallery</h1>
+        </div>
+        <div class="gallery">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+                    <input type="radio" name="radio-btn" id="radio6">
+                    <input type="radio" name="radio-btn" id="radio7">
+                    <input type="radio" name="radio-btn" id="radio8">
+                    <div class="slide first">
+                        <img src="assets/img/slider1.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/slider2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/slider3.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/slider4.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/slider5.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/slider6.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/slider7.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/slider8.jpeg" alt="">
+                    </div>
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                        <div class="auto-btn6"></div>
+                        <div class="auto-btn7"></div>
+                        <div class="auto-btn8"></div>
+                    </div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                    <label for="radio6" class="manual-btn"></label>
+                    <label for="radio7" class="manual-btn"></label>
+                    <label for="radio8" class="manual-btn"></label>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var counter = 1;
+                setInterval(function () {
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if (counter > 8) {
+                        counter = 1;
+                    }
+                }, 5000);
+            </script>
+        </div>
+        <div class="topic" id="contact-us">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="contact-us">
+            <div class="options">
+                <i class="fa-brands fa-whatsapp"></i>
+                <h5>WhatsApp</h5>
+                <button onclick="copyNumber()" id="callBtn">Click Here</button>
+                <span id="message" style="display: none;">Number Copied!</span>
+            </div>
+            <div class="options">
+                <i class="fa-brands fa-instagram"></i>
+                <h5>Instagram</h5>
+                <a href="https://www.instagram.com/richlands.villa_kandy"><button>Click Here</button></a>
+            </div>
+            <div class="options">
+                <i class="fa-regular fa-envelope"></i>
+                <h5>Email</h5>
+                <button onclick="sendMail()">Click Here</button>
+                <span id="email" style="display: none;">Email Copied!</span>
+            </div>
+            <script>
+                function copyNumber() {
+                    navigator.clipboard.writeText(+94771886966);
+                    const messageElement = document.getElementById('message');
+                    const msgBtn = document.getElementById('msgBtn');
+                    messageElement.style.display = 'block';
+
+                    setTimeout(function () {
+                        messageElement.style.display = 'none';
+                    }, 3000);
+                }
+
+                function sendMail() {
+                    navigator.clipboard.writeText("richlandsvilla@gmail.com");
+                    const messageElement = document.getElementById('email');
+                    messageElement.style.display = 'block';
+
+                    setTimeout(function () {
+                        messageElement.style.display = 'none';
+                    }, 3000);
+                }
+            </script>
+        </div>
+    </div>
+    <footer class="footer">
+        <a href="#top" class="to-top"><i class="fa-solid fa-up-long"></i></a>
+        <div class="footer-content"><p>&copy; 2024 Richland's Villa. All rights reserved.</p></div>
+    </footer>
+</body>
+
+</html>
