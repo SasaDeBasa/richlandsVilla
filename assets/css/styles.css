@@ -103,6 +103,7 @@ nav a{
     width: 100%;
     padding: 3%;
     font-size: 40px;
+    text-align: left;
     transition: all 0.5s ease;
 }
 
